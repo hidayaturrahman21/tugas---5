@@ -1,0 +1,8 @@
+# Minta pengguna memasukkan sebuah angka
+angka = int(input("Masukkan sebuah angka: "))
+
+# Cek apakah angka genap atau ganjil
+if angka % 2 == 0:
+    print("Angka ini genap.")
+else:
+    print("Angka ini ganjil.")
